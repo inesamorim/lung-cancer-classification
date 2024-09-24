@@ -1,1 +1,2 @@
 https://www.kaggle.com/code/washingtongold/loading-and-reading-lidc-idri
+https://github.com/MIC-DKFZ/LIDC-IDRI-processing/blob/master/lidc_data_to_nifti.py
