@@ -8,6 +8,8 @@ Processo Inicial:
 [] ler verde - Dani
 [] ler rosa - Constança
 [] ler amarelo - Inês
+[] Descobrir como abrir e usar as anotações segmentos (pylidc) - ?
+
 
 ================================================================
 
