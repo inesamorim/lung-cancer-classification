@@ -1,0 +1,4 @@
+- o numero de slides depende da resolução (diantância entre slides)
+- quanto maior o número de slides, maior será a precisão
+- 2D vs 3D: análise slice a slice (de forma independente) vs análise de todos os slices ao mesmo tempo
+- analisar os prós e contras de cada ideia

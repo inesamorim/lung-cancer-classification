@@ -1,2 +1,27 @@
+Processo Inicial:
+
 [] Download do DataSet de imagens - Dani
+[] abrir DICOM - Pedro e Dani
+[] abrir XML - Inês e Constança
 [] Imagens para features
+[] ler azul - Pedro
+[] ler verde - Dani
+[] ler rosa - Constança
+[] ler amarelo - Inês
+
+================================================================
+
+Passos Seguintes:
+
+[] Data Cleaning
+[] descobrir se vamos usar uma solução 2D ou 3D
+[] Data Pre-Processing 
+[] Exploratory Data Analysis (sumarizar as principais características do dataset, tipos de variáveis, etc) - talvez usando gráficos
+[] Feature Engineering and Selection - Radiomics, Deep Features,... 
+[] Seleção do modelo / algoritmo, comentar a sua interpretabilidade e o porquê de ter sido escolhido
+[] Selecionar métricas de performance
+[] Visualização de Resultados
+[] Considerar outros datasets - melhor generalização(?)
+
+
+
