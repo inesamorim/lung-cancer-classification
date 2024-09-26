@@ -12,3 +12,40 @@ quao circular é?
 posição
 cor media/max/mediana
 
+
+===================================================================
+
+Informações retiradas de https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6006355/: Highly accurate model for prediction of lung nodule malignancy with CT scans
+
+Existem duas maneiras de extrair features de uma imagem TAC:
+
+(1) Radiomics: baseia-se na extração de features quantitativas (QIF's). Radiomics approaches need proper segmentations of the nodules from radiologists or from segmentation algorithms, and then need quantitative image feature extraction. 
+(2) Deep Learning: baseia-se na extração de features a partir de CNN's (convolutional neural networks). CNN approaches do not necessarily require segmentation of the nodules and can perform prediction with one marked point per nodule after the prediction model is trained. Usually requires a much larger training dataset, but can be more efficient.
+
+Neste estudo, é usada uma mistura dos dois métodos, obtendo-se assim um vetor de 250 features e, consecutivamente, usa-se um Random Forest Classifier.
+
+-------------------------
+
+Métodos:
+
+Foram criadas duas redes neuronais com os seguintes inputs:
+
+  - CNN21: size 21px x 21px x 5 slices
+  - CNN47: size 47ox x 47px x 5 slices
+
+Estes inputs são retirados da CT scan, ao selecionar uma região (3D) centrada à volta do centroide do nódulo (este centroide é a média dos centroides de todas as segmentações).
+
+To reduce overfitting, automatic data augmentation was performed in which each input image volume was randomly shifted up to 30% in both the X and Y directions, and randomly rotated between 0 and 180 degrees.
+
+As features são extraídas da "fully connected layer", ou seja, a camada antes da última (classification layer). Estas são extraídas para um CSV file
+
+------------------------
+
+Seleção de Nódulos: foi criada uma lista de nódulos para cada paciente em que a categoria de cada nódulo é a média das categorias atribuídas por cada radiologista.
+
+------------------------
+
+QIF features extraction:
+Fazem-se as mesmas médias que no método das CNN (centroide e categoria). As regiões segmentadas foram processadas por uma library do MatLab para produzir as QIF's
+
+
