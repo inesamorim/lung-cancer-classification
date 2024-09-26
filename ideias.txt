@@ -7,6 +7,42 @@
 
 
 # features das imagens/nodules:
+
+//intensity-based, shape-based, texture-based, and edge-related features.
+
+->intensity-based(measure pixel intensity/brightness and contrast):
+  The average pixel value in the nodule region
+  intensity varies across the nodule(s)
+  Minimum and Maximum Intensity
+  asymmetry of the intensity distribution (a sign of uneven tissue density)
+  Kurtosis: A measure of the "peakedness" or flatness of the intensity distribution
+  Histogram of Intensities: Distribution of pixel intensity values
+
+->shape-based:
+  area 
+  perimeter 
+  how much the shape deviates from being circular; malignant nodules often appear irregular or elongated
+  Aspect Ratio: The ratio of the major to minor axis lengths of the bounding ellipse (helps identify elongated nodules)
+  how compact or spread out the nodule appears. Malignant nodules tend to have lower compactness due to irregular shapes.
+  Solidity: The ratio of the nodule area to the convex hull area. Lower values can indicate concavities in the shape?
+
+->texture-based:
+  Quantifies how spiculated (having spikes or points) the edge of the nodule is. Malignant nodules tend to have spiculated or jagged edges
+
+->edge-related:
+
+->contextual:
+  The location of the nodule in the lung (upper, lower, central) can provide context about malignancy risk
+  The contrast between the nodule and its surrounding tissue may indicate malignancy.
+  Malignant nodules may appear near or interact with blood vessels, leading to distinct features around the edges of the nodule
+
+->frequency-domain:
+  features capture shape information in the frequency domain
+  
+
+  
+
+som?
 diametro
 quao circular é?
 posição
