@@ -1,4 +1,14 @@
 - o numero de slides depende da resolução (diantância entre slides)
 - quanto maior o número de slides, maior será a precisão
 - 2D vs 3D: análise slice a slice (de forma independente) vs análise de todos os slices ao mesmo tempo
+  - usar apenas a imagem central do nodule na CNN
+  - usar varias imagens na CNN e "juntar" para as linear layers
 - analisar os prós e contras de cada ideia
+
+
+# features das imagens/nodules:
+diametro
+quao circular é?
+posição
+cor media/max/mediana
+
