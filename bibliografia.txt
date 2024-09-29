@@ -4,3 +4,6 @@ https://github.com/MIC-DKFZ/LIDC-IDRI-processing/blob/master/lidc_data_to_nifti.
 # Pode dar jeito
 https://github.com/mikejhuang/LungNoduleDetectionClassification
 https://github.com/jaeho3690/LIDC-IDRI-Preprocessing/tree/master
+
+#pylidc documentação
+https://pylidc.github.io/scan.html

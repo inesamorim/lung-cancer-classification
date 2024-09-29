@@ -7,7 +7,7 @@ Processo Inicial:
 [] ler azul - Pedro
 [] ler verde - Dani
 [] ler rosa - Constança
-[] ler amarelo - Inês
+[x] ler amarelo - Inês
 [] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
