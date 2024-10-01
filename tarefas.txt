@@ -12,7 +12,7 @@ Processo Inicial:
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
 [] feature extraction with cnn - Pedro
-[] transformar imagem em som - Dani
+[] transformar imagem em som - Dani, Constança
 
 
 
