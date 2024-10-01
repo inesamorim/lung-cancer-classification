@@ -8,11 +8,13 @@ Processo Inicial:
 [] ler verde - Dani
 [] ler rosa - Constança
 [x] ler amarelo - Inês
-[] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
+[x] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
 [] feature extraction with cnn - Pedro
-[] transformar imagem em som - Dani
+[] transformar imagem em som - Dani e Constança
+[x] exportar features das annotations para csv - Inês 
+[] Radiomics - Inês
 
 
 
