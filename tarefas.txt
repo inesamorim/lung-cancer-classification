@@ -4,7 +4,7 @@ Processo Inicial:
 [] abrir DICOM - Pedro e Dani
 [x] abrir XML - Inês e Constança
 [] Imagens para features
-[] ler azul - Pedro
+[x] ler azul - Pedro
 [] ler verde - Dani
 [] ler rosa - Constança
 [x] ler amarelo - Inês
