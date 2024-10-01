@@ -8,11 +8,13 @@ Processo Inicial:
 [] ler verde - Dani
 [] ler rosa - Constança
 [x] ler amarelo - Inês
-[] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
+[x] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
 [] feature extraction with cnn - Pedro
-[] transformar imagem em som - Dani, Constança
+[] transformar imagem em som - Dani e Constança
+[x] exportar features das annotations para csv - Inês
+[] Radiomics - Inês
 
 
 
@@ -22,13 +24,10 @@ Passos Seguintes:
 
 [] Data Cleaning
 [] descobrir se vamos usar uma solução 2D ou 3D
-[] Data Pre-Processing 
+[] Data Pre-Processing
 [] Exploratory Data Analysis (sumarizar as principais características do dataset, tipos de variáveis, etc) - talvez usando gráficos
-[] Feature Engineering and Selection - Radiomics, Deep Features,... 
+[] Feature Engineering and Selection - Radiomics, Deep Features,...
 [] Seleção do modelo / algoritmo, comentar a sua interpretabilidade e o porquê de ter sido escolhido
 [] Selecionar métricas de performance
 [] Visualização de Resultados
 [] Considerar outros datasets - melhor generalização(?)
-
-
-
