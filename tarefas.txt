@@ -11,6 +11,8 @@ Processo Inicial:
 [] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
+[] feature extraction with cnn - Pedro
+[] transformar imagem em som - Dani
 
 
 
