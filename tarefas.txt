@@ -1,7 +1,7 @@
 Processo Inicial:
 
 [] Download do DataSet de imagens - Dani
-[] abrir DICOM - Pedro e Dani
+[x] abrir DICOM - Pedro e Dani
 [x] abrir XML - Inês e Constança
 [] Imagens para features
 [x] ler azul - Pedro
@@ -11,7 +11,10 @@ Processo Inicial:
 [x] Descobrir como abrir e usar as anotações segmentos (pylidc) - Inês
 [] escrever vantagens e desvantagens 2d vs 3D
 [] descobrir tamanho do maior nodule
-[] feature extraction with cnn - Pedro
+[x] feature extraction with cnn - Pedro
+    [] quais metricas usar??
+    [] why rede do paper not possivel??
+    [] separar treino/teste
 [] transformar imagem em som - Dani e Constança
 [x] exportar features das annotations para csv - Inês
 [] Radiomics - Inês
