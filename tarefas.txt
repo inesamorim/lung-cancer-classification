@@ -14,7 +14,7 @@ Processo Inicial:
 [x] feature extraction with cnn - Pedro
     [] quais metricas usar??
     [] why rede do paper not possivel??
-    [] separar treino/teste
+    [x] separar treino/teste
 [] transformar imagem em som - Dani e Constança
 [x] exportar features das annotations para csv - Inês
 [] Radiomics - Inês
