@@ -17,7 +17,9 @@ Processo Inicial:
     [x] separar treino/teste
 [] transformar imagem em som - Dani e Constança
 [x] exportar features das annotations para csv - Inês
-[] Radiomics - Inês
+[x] Radiomics - Inês
+[] Run código das Radiomics - Dani
+[] XG-Boost
 
 
 
