@@ -3,7 +3,6 @@ Processo Inicial:
 [] Download do DataSet de imagens - Dani
 [x] abrir DICOM - Pedro e Dani
 [x] abrir XML - Inês e Constança
-[] Imagens para features
 [x] ler azul - Pedro
 [] ler verde - Dani
 [] ler rosa - Constança
@@ -20,6 +19,8 @@ Processo Inicial:
 [x] Radiomics - Inês
 [] Run código das Radiomics - Dani
 [] XG-Boost
+[] is there any useable features in XML files???
+
 
 
 
