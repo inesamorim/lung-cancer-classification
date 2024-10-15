@@ -1,9 +1,12 @@
 https://www.kaggle.com/code/washingtongold/loading-and-reading-lidc-idri
 https://github.com/MIC-DKFZ/LIDC-IDRI-processing/blob/master/lidc_data_to_nifti.py
+https://en.wikipedia.org/wiki/Hounsfield_scale
+https://github.com/jcausey-astate/NoduleX_code
 
 # Pode dar jeito
 https://github.com/mikejhuang/LungNoduleDetectionClassification
 https://github.com/jaeho3690/LIDC-IDRI-Preprocessing/tree/master
+https://www.kaggle.com/competitions/data-science-bowl-2017/code?competitionId=6004&sortBy=voteCount&excludeNonAccessedDatasources=true
 
 #pylidc documentação
 https://pylidc.github.io/scan.html
