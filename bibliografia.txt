@@ -10,3 +10,6 @@ https://www.kaggle.com/competitions/data-science-bowl-2017/code?competitionId=60
 
 #pylidc documentação
 https://pylidc.github.io/scan.html
+
+# Papers
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6006355/
