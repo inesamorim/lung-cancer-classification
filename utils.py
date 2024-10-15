@@ -17,7 +17,7 @@ classes = [0, -1, -1, 0, 1, 1]
 def get_malignancy_class(malign: int) -> Literal[-1, 0, 1]:
     """
     1 - Sus ඞ
-    0 - ¯\_(ツ)_/¯
+    0 - ¯\_(ツ)_/¯  
     -1 - no sus
     """
 
