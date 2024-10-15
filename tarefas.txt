@@ -18,8 +18,10 @@ Processo Inicial:
 [x] exportar features das annotations para csv - Inês
 [x] Radiomics - Inês
 [] Run código das Radiomics - Dani
-[] XG-Boost
+[] merge datasets
+[] XG-Boost - Dani e Pedro
 [] is there any useable features in XML files???
+[] justificar decisões tendo em conta mundo real - Inês
 
 
 
