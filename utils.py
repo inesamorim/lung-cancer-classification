@@ -1,3 +1,5 @@
+#useful functions
+
 import pylidc as pl
 import numpy as np
 from scipy.spatial.distance import cdist
