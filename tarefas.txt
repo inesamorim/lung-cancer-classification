@@ -20,6 +20,8 @@ Processo Inicial:
 [] Run código das Radiomics - Dani
 [] XG-Boost
 [] is there any useable features in XML files???
+[] peso classes
+[] not considering the nodules of the same patient to be completely separated into the training set or the validation set
 
 
 
