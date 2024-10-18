@@ -24,6 +24,7 @@ Processo Inicial:
 [] justificar decisões tendo em conta mundo real - Inês
 [] peso classes
 [] not considering the nodules of the same patient to be completely separated into the training set or the validation set
+[] corrigir nodule_id radiomics - Inês
 
 
 
