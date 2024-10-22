@@ -34,6 +34,8 @@ Processo Inicial:
 
 
 
+[] teste hipotese com cross-validation
+[] usar multiple metrics com random search (https://scikit-learn.org/stable/auto_examples/model_selection/plot_multi_metric_evaluation.html#sphx-glr-auto-examples-model-selection-plot-multi-metric-evaluation-py)
 
 
 
