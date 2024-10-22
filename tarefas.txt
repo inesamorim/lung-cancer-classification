@@ -17,14 +17,22 @@ Processo Inicial:
 [] transformar imagem em som - Dani e Constança
 [x] exportar features das annotations para csv - Inês
 [x] Radiomics - Inês
-[] Run código das Radiomics - Dani
 [] merge datasets
 [] XG-Boost - Dani e Pedro
-[] is there any useable features in XML files???
-[] justificar decisões tendo em conta mundo real - Inês
+[x] is there any useable features in XML files???
+[x] justificar decisões tendo em conta mundo real - Inês
 [] peso classes
 [] not considering the nodules of the same patient to be completely separated into the training set or the validation set
-[] corrigir nodule_id radiomics - Inês
+[x] corrigir nodule_id radiomics - Inês
+[] justificar métricas - Inês
+    [] f1 score
+    [] f2 score
+    [] precision
+    [] recall
+    [] roc 
+    [] balanced accuracy
+
+
 
 
 
