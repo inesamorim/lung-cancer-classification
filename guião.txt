@@ -1,0 +1,13 @@
+Cada um de nós pode falar cerca de 1:25m, para que no total tenhamos um máximo de 5 minutos.
+
+Temas que deverão ser abordados no vídeo:
+[] Pequena introdução a apresentar o trabalho
+[] Cluster das anotações para obtenção de um dataframe organizado por nódulo
+[] Distribuição das classes e o que fizemos para o resolver (SMOTE)
+[] Sound (?)
+[] Extração de features usando radiomics
+[] Extração de features usando CNN's
+[] A escolha feita de trabalhar com classificação binária e como reduzimos as classes
+[] Como fizemos a pipeline para treino e hyperparameter tunning
+[] Discussão dos Resultados
+[] Future Work
