@@ -13,3 +13,30 @@ https://pylidc.github.io/scan.html
 
 # Papers
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6006355/
+
+
+#ZCR
+https://www.sciencedirect.com/topics/engineering/zero-crossing-rate,
+https://en.wikipedia.org/wiki/Zero-crossing_rate,
+https://statisticseasily.com/glossario/what-is-zero-crossing-rate/
+
+#FF 
+https://academia-lab.com/enciclopédia/frequencia-fundamental/
+https://web.archive.org/web/20140514122624/http://fourier.eng.hmc.edu/e101/lectures/Fundamental_Frequency.pdf
+https://chatgpt.com/
+
+#SC
+https://www.sciencedirect.com/topics/engineering/spectral-centroid
+
+#SB
+https://www.sciencedirect.com/topics/engineering/spectral-bandwidth
+http://acousticslab.org/RECA220/PMFiles/Module06.htm#timbreb
+
+#TEMPO
+https://theonlinemetronome.com/blogs/12/tempo-markings-defined
+
+#OT
+https://chatgpt.com/
+
+#DR
+https://en.wikipedia.org/wiki/Dynamic_range

@@ -12,6 +12,11 @@ Para usarmos as anotações disponibilizadas pelo dataset, fizemos um cluster pa
 [] Sound (?)
 
 
+convert_to_sound, como o nome implica, é uma função que têm como propósito transformar uma imagem em som. O valor de cada pixel corresponde a uma frequência, transformando os dados visuais em ondas sonoras  
+A conversão de imagens em som é feita por camadas, como ideia original seriam usados tanto o audio_data do nódulo completo como o da camada central. Acabamos por apenas usar a camada central devido ao tempo que estava a demorar a correr o programa
+Depois de obtidos áudio_data e sample_rate, são retirados e guardados recursos comuns usados em análise de áudio como spectral centroid, frequência e energia
+
+
 [] Extração de features usando radiomics
 
 Para usar a função de Extração de features do pyradiomics, precisamos primeiro de ter a imagem e a máscara correspondentes a cada nódulo. Organizamo-las por paciente e nódulo em pastas. Para além disso, as imagens usadas estão em 3D e foram guardadas no formato .nii, que suporta isso mesmo.
