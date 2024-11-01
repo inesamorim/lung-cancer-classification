@@ -5,18 +5,18 @@ Temas que deverão ser abordados no vídeo:
 
 Este projeto consiste em usar Inteligência Artificial na deteção de cancro do pulmão, já que este é o mais difícil de detetar na sua fase inicial, levando a uma grande taxa de mortalidade.
 
-[] Cluster das anotações para obtenção de um dataframe organizado por nódulo
+[x] Cluster das anotações para obtenção de um dataframe organizado por nódulo
 
 Para usarmos as anotações disponibilizadas pelo dataset, fizemos um cluster para que as opiniões dos 4 radiologistas para cada nódulo representassem apenas uma linha do dataframe que íamos utilizar. Para isto, usamos a função do pylidc cluster_annotations(), mas esta não funciona para todos os exemplos, e, por isso, criamos uma versão nossa que calcula a média para cada feature e arredonda o resultado para o inteiro mais próximo, como é feito num dos artigos disponibilizados.
 
 [] Sound (?)
 
 
-[] Extração de features usando radiomics
+[x] Extração de features usando radiomics
 
 Para usar a função de Extração de features do pyradiomics, precisamos primeiro de ter a imagem e a máscara correspondentes a cada nódulo. Organizamo-las por paciente e nódulo em pastas. Para além disso, as imagens usadas estão em 3D e foram guardadas no formato .nii, que suporta isso mesmo.
 
-[] Extração de features usando CNN's
+[x] Extração de features usando CNN's
 
 Para extrair features com CNN's, usamos as primeiras 2 camadas de um modelo pré treinado do artigo .... Treinamos também uma cnn do zero e para ela, extraimos features das primeiras duas camadas e da penúltima, obtendo assim 3 dataframes diferentes que foram depois comparados.
 
@@ -24,7 +24,7 @@ Para extrair features com CNN's, usamos as primeiras 2 camadas de um modelo pré
 
 Para treinar os modelos, decidimos usar classificação binária, visto que o nosso principal problema é clasificar os nódulos como benignos ou malignos. Classificação binária pode ser mais importante para a escolha de tratamento, por exemplo. Para então reduzir as classes, juntamos as duas primeiras categorias numa só e fizemos a mesma coisa com as duas últimas. A categoria 'indeterminado' foi eliminada. 
 
-[] Como fizemos a pipeline para treino e hyperparameter tunning e SMOTE
+[x] Como fizemos a pipeline para treino e hyperparameter tunning e SMOTE
 
 Escolhemos usar os algoritmos XGBoost e Random Forest, já que estes testam vários conjuntos de features e escolhem as melhores...
 
