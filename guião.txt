@@ -11,11 +11,9 @@ Para usarmos as anotações disponibilizadas pelo dataset, fizemos um cluster pa
 
 [x] Sound
 
-
 convert_to_sound, como o nome implica, é uma função que têm como propósito transformar uma imagem em som. O valor de cada pixel corresponde a uma frequência, transformando os dados visuais em ondas sonoras
 A conversão de imagens em som é feita por camadas, como ideia original seriam usados tanto o audio_data do nódulo completo como o da camada central. Acabamos por apenas usar a camada central devido ao tempo que estava a demorar a correr o programa
 Depois de obtidos áudio_data e sample_rate, são retirados e guardados recursos comuns usados em análise de áudio como spectral centroid, frequência e energia
-
 
 [x] Extração de features usando radiomics
 
@@ -36,6 +34,11 @@ Escolhemos usar os algoritmos XGBoost e Random Forest, já que estes testam vár
 [] Discussão dos Resultados
 
 Analisamos os resultados no set de treino e da cross validation. Em geral, podemos dizer que obtemos bom resultados, à volta de 85% no treino, em todas as métricas usadas, sendo que os melhores modelos usaram as features das CNN e do som. Para avaliar os modelos, priorizamos o recall, pois esta métrica dá-nos informação crucial sobre falsos negativos, algo que deve ser evitado ao máximo na medicina.
+
+[] Trabalhos foturos 
+
+Em trabalhos futuros, seria útil explorar mais aprofundadamente feature extracting relativamente ao som, uma vez que os resultados iniciais parecem promissores. Além disso, para além de usar a máscara obtida com 50% de consentimento de nódulos cuja média da malignancy é igual a 5, criar também mascaras para cada uma das anotações.
+Para além disto, se for possível, nas CT scan, alterar o contraste para vasos sanguíneos e, usando uma versão da máscara tal que mask = 25% consentimento + margem de 15% e tentar extrair features 
 
 
 [] Impacto
