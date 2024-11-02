@@ -9,7 +9,7 @@ Este projeto consiste em usar Inteligência Artificial na deteção de cancro do
 
 Para usarmos as anotações disponibilizadas pelo dataset, fizemos um cluster para que as opiniões dos 4 radiologistas para cada nódulo representassem apenas uma linha do dataframe que íamos utilizar. Para isto, usamos a função do pylidc cluster_annotations(), mas esta não funciona para todos os exemplos, e, por isso, criamos uma versão nossa que calcula a média para cada feature e arredonda o resultado para o inteiro mais próximo, como é feito num dos artigos disponibilizados.
 
-[] Sound (?)
+[x] Sound
 
 
 convert_to_sound, como o nome implica, é uma função que têm como propósito transformar uma imagem em som. O valor de cada pixel corresponde a uma frequência, transformando os dados visuais em ondas sonoras
