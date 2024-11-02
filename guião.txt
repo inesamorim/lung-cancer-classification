@@ -35,4 +35,7 @@ Escolhemos usar os algoritmos XGBoost e Random Forest, já que estes testam vár
 
 [] Discussão dos Resultados
 
+Analisamos os resultados no set de treino e da cross validation. Em geral, podemos dizer que obtemos bom resultados, à volta de 85% no treino, em todas as métricas usadas, sendo que os melhores modelos usaram as features das CNN e do som. Para avaliar os modelos, priorizamos o recall, pois esta métrica dá-nos informação crucial sobre falsos negativos, algo que deve ser evitado ao máximo na medicina.
+
+
 [] Impacto
